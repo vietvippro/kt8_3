@@ -23,7 +23,7 @@ namespace kt8
             string passWord = textboxmatkhau.Text;
             if (userName == "admin" && passWord == "admin")
             {
-                MessageBox.Show("login successful");
+                MessageBox.Show("đăng nhập thành công!!!");
             }
         }
     }
