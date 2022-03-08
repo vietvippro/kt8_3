@@ -51,6 +51,7 @@ namespace kt8
             this.textboxusername.Name = "textboxusername";
             this.textboxusername.Size = new System.Drawing.Size(275, 22);
             this.textboxusername.TabIndex = 1;
+            this.textboxusername.Text = "admin";
             // 
             // label1
             // 
@@ -67,15 +68,17 @@ namespace kt8
             this.textboxmatkhau.Name = "textboxmatkhau";
             this.textboxmatkhau.Size = new System.Drawing.Size(275, 22);
             this.textboxmatkhau.TabIndex = 3;
+            this.textboxmatkhau.Text = "admin";
             // 
             // btnlogin
             // 
             this.btnlogin.Location = new System.Drawing.Point(290, 232);
             this.btnlogin.Name = "btnlogin";
-            this.btnlogin.Size = new System.Drawing.Size(155, 23);
+            this.btnlogin.Size = new System.Drawing.Size(155, 46);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "login";
+            this.btnlogin.Text = "đăng nhập";
             this.btnlogin.UseVisualStyleBackColor = true;
+            this.btnlogin.Click += new System.EventHandler(this.btnlogin_Click);
             // 
             // Form1
             // 

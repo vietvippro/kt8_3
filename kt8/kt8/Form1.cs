@@ -16,5 +16,15 @@ namespace kt8
         {
             InitializeComponent();
         }
+
+        private void btnlogin_Click(object sender, EventArgs e)
+        {
+            string userName = textboxusername.Text;
+            string passWord = textboxmatkhau.Text;
+            if (userName == "admin" && passWord == "admin")
+            {
+                MessageBox.Show("login successful");
+            }
+        }
     }
 }
