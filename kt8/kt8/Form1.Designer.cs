@@ -30,9 +30,9 @@ namespace kt8
         private void InitializeComponent()
         {
             this.UserName = new System.Windows.Forms.Label();
-            this.txtUserName = new System.Windows.Forms.TextBox();
+            this.textboxusername = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.txtpassword = new System.Windows.Forms.TextBox();
+            this.textboxmatkhau = new System.Windows.Forms.TextBox();
             this.btnlogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -45,12 +45,12 @@ namespace kt8
             this.UserName.TabIndex = 0;
             this.UserName.Text = "tên đăng nhập";
             // 
-            // txtUserName
+            // textboxusername
             // 
-            this.txtUserName.Location = new System.Drawing.Point(250, 70);
-            this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(275, 22);
-            this.txtUserName.TabIndex = 1;
+            this.textboxusername.Location = new System.Drawing.Point(250, 70);
+            this.textboxusername.Name = "textboxusername";
+            this.textboxusername.Size = new System.Drawing.Size(275, 22);
+            this.textboxusername.TabIndex = 1;
             // 
             // label1
             // 
@@ -61,12 +61,12 @@ namespace kt8
             this.label1.TabIndex = 2;
             this.label1.Text = "Mật khẩu";
             // 
-            // txtpassword
+            // textboxmatkhau
             // 
-            this.txtpassword.Location = new System.Drawing.Point(250, 131);
-            this.txtpassword.Name = "txtpassword";
-            this.txtpassword.Size = new System.Drawing.Size(275, 22);
-            this.txtpassword.TabIndex = 3;
+            this.textboxmatkhau.Location = new System.Drawing.Point(250, 131);
+            this.textboxmatkhau.Name = "textboxmatkhau";
+            this.textboxmatkhau.Size = new System.Drawing.Size(275, 22);
+            this.textboxmatkhau.TabIndex = 3;
             // 
             // btnlogin
             // 
@@ -74,7 +74,7 @@ namespace kt8
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(155, 23);
             this.btnlogin.TabIndex = 4;
-            this.btnlogin.Text = "đăng nhập";
+            this.btnlogin.Text = "login";
             this.btnlogin.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -83,9 +83,9 @@ namespace kt8
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(998, 536);
             this.Controls.Add(this.btnlogin);
-            this.Controls.Add(this.txtpassword);
+            this.Controls.Add(this.textboxmatkhau);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.txtUserName);
+            this.Controls.Add(this.textboxusername);
             this.Controls.Add(this.UserName);
             this.Name = "Form1";
             this.Text = "UserName";
@@ -97,9 +97,9 @@ namespace kt8
         #endregion
 
         private System.Windows.Forms.Label UserName;
-        private System.Windows.Forms.TextBox txtUserName;
+        private System.Windows.Forms.TextBox textboxusername;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox txtpassword;
+        private System.Windows.Forms.TextBox textboxmatkhau;
         private System.Windows.Forms.Button btnlogin;
     }
 }
