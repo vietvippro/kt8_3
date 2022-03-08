@@ -40,9 +40,9 @@ namespace kt8
             this.UserName.AutoSize = true;
             this.UserName.Location = new System.Drawing.Point(66, 75);
             this.UserName.Name = "UserName";
-            this.UserName.Size = new System.Drawing.Size(75, 17);
+            this.UserName.Size = new System.Drawing.Size(100, 17);
             this.UserName.TabIndex = 0;
-            this.UserName.Text = "UserName";
+            this.UserName.Text = "tên đăng nhập";
             // 
             // txtUserName
             // 
@@ -56,9 +56,9 @@ namespace kt8
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(69, 121);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(68, 17);
+            this.label1.Size = new System.Drawing.Size(66, 17);
             this.label1.TabIndex = 2;
-            this.label1.Text = "password";
+            this.label1.Text = "mật khẩu";
             // 
             // txtpassword
             // 
